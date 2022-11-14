@@ -8,6 +8,10 @@
  * Text Domain: Forumcrumbs
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 
 function bb_enable_breadcrumbs_forum_topic($param) {
   return false;
